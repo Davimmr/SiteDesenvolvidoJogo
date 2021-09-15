@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-sacale=1.0">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <title>Tree of Savior</title>
+
+<script>
+function irGoogle() 
+{
+    window.location.assign("http://store.steampowered.com/app/372000/")
+}
+</script>
+
+<script>
+function yt() 
+{
+    window.location.assign("http://store.steampowered.com/app/372000/")   
+}
+</script>
+
+    
+<style>
+
+body {
+background: url(Conteudo-Site-Tree-Of-Savior/background2.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+</style>
+
+</head>
+<body>
+<div id="main">
+    <header>
+  <nav>
+  <ul> <!-- -class="active"-->
+    <li><a href="index.html">Home</a></li>
+    <li><a href="historia.html">Historia</a></li>
+    <li class="submenu"><a href="#">Dicas</a>
+        <div class="submenu-conteudo">
+    <a href="http://wiki.tosbase.com/wiki/Main_Page">Wiki</a>
+    <a href="http://www.tosbase.com/game/world-map/">Mapa Mundi</a>
+        </div>    
+      </li>
+
+      <li><a href="guia.html">Guias</a></li>
+      <li class="submenu"><a href="classes.html">Classes</a>
+        <div class="submenu-conteudo">
+          <a href="#">Espadachim</a>
+          <a href="#">Arqueiro</a>
+          <a href="#">Clerico</a>
+          <a href="#">Mago</a>
+        </div>    
+      </li>
+      <li><a href="download.html">Download</a></li>
+  </ul>
+    <img id="img-menu" src="Conteudo-Site-Tree-Of-Savior/logo.png"> 
+
+<div class="historia">
+     <h1>História</h1>
+   <img src="Conteudo-Site-Tree-Of-Savior/pattern.png">
+    <!--Sub Menu Passos-->
+<section>
+<br>
+
+
+</section>
+
+<div>
+</nav>
+  
+          
+          <div class="menu-vertical-rsv">
+        <ul class="redessocial">
+    
+    <li><a href="#"><img src="Conteudo-Site-Tree-Of-Savior/face.png"></a></li>
+    <li><a href="#"><img src="Conteudo-Site-Tree-Of-Savior/insta.png"></a></li>
+    <li><a href="#"><img src="Conteudo-Site-Tree-Of-Savior/tum.png"></a></li>
+    <li><a href="#"><img src="Conteudo-Site-Tree-Of-Savior/twi.png"></a></li>
+
+          </ul>
+          </div>
+</header>
+
+</div>
+</body>
+</html>

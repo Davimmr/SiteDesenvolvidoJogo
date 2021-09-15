@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-sacale=1.0">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Tree of Savior</title>
+
+<script>
+function irGoogle() 
+{
+    window.location.assign("http://store.steampowered.com/app/372000/")
+}
+</script>
+
+<script>
+function yt() 
+{
+    window.location.assign("http://store.steampowered.com/app/372000/")   
+}
+</script>
+
+		<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+			<script type="text/javascript" src="engine0/jquery.js"></script>
+<style>
+
+body {
+background: url(Conteudo-Site-Tree-Of-Savior/background2.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+</style>
+
+</head>
+<body>
+<div id="main">
+	<header>
+	<nav>
+	<ul> <!-- -class="active"-->
+		<li><a href="index.html">Home</a></li>
+		<li><a href="historia.html">Historia</a></li>
+		<li class="submenu"><a href="#">Dicas</a>
+				<div class="submenu-conteudo">
+		<a href="http://wiki.tosbase.com/wiki/Main_Page">Wiki</a>
+		<a href="http://www.tosbase.com/game/world-map/">Mapa Mundi</a>
+				</div>		
+			</li>
+
+			<li><a href="guia.html">Guias</a></li>
+			<li class="submenu"><a href="classes.html">Classes</a>
+				<div class="submenu-conteudo">
+					<a href="#">Espadachim</a>
+					<a href="#">Arqueiro</a>
+					<a href="#">Clerico</a>
+					<a href="#">Mago</a>
+				</div>		
+			</li>
+			<li><a href="download.html">Download</a></li>
+	</ul>
+			
+</nav>
+	<img id="img-menu" src="Conteudo-Site-Tree-Of-Savior/logo.png"> 
+					
+					<div class="menu-vertical-rsv">
+				<ul class="redessocial">
+		
+		<li><a href="#"><img src="Conteudo-Site-Tree-Of-Savior/face.png"></a></li>
+		<li><a href="#"><img src="Conteudo-Site-Tree-Of-Savior/insta.png"></a></li>
+		<li><a href="#"><img src="Conteudo-Site-Tree-Of-Savior/tum.png"></a></li>
+		<li><a href="#"><img src="Conteudo-Site-Tree-Of-Savior/twi.png"></a></li>
+
+					</ul>
+					</div>
+</header>
+
+<div class="banner">
+
+</div>
+
+
+<section>
+
+	<article class="borda2">
+		<h1>Noticias</h1>
+
+	<p>
+		Olá, pessoal! Nesta manhã, a IMC Games surgiu com algumas novidades bem interessantes. Trata-se de um novo servidor e mudanças nos preços de suas DLC's na Steam.
+	</p>
+		<img id="sombra" src="Conteudo-Site-Tree-Of-Savior/sombra2tipo.png" alt="sombra">
+	<br><p>
+		Boa noite, Saviors! Estou percebendo que muitos de vocês estão tendo problemas ao fazer a solicitação de transferência dos servidores Orsha e Klaipeda para o futuro servidor Sul-Americano. Portanto vou mostrar para vocês o passo-a-passo para quem quiser fazer isso sem passar nenhum sufoco.
+	</p>
+		<img id="sombra" src="Conteudo-Site-Tree-Of-Savior/sombra2tipo.png" alt="sombra">
+	<p>
+		
+		Cumprimentos e saudações Saviors! A tão aguardada transferência de servidores está sobre nós, e os detalhes sobre o serviço podem ser encontrados abaixo. Por favor, leia cuidadosamente para evitar qualquer mal-entendido, pois o processo de transferência não será revertido.
+	</p>
+		<img id="sombra" src="Conteudo-Site-Tree-Of-Savior/sombra2tipo.png" alt="sombra">
+
+</article>
+</section>
+		
+	
+	
+	<aside class="Item caixaconteudo">
+					<h1>Trailer Oficial</h1>
+						<iframe src="https://www.youtube.com/embed/sayYpOhqJXg" frameborder="0" allowfullscreen class="sideBarYoutube"></iframe><br>
+							<input class="button2" type="button" value="Visite Nosso Canal do Youtube" onclick="yt()">
+					
+				<div class="caixasteam">
+					<img id="logosteam" src="Conteudo-Site-Tree-Of-Savior/steam_logo.png" width="170" alt="steam logo" title="steam logo"/>
+						<input class="button" type="button" value="Baixe Agora" onclick="irGoogle()">
+						</div>
+	</aside>
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,860 @@
+body
+{
+width: 100%;	
+}
+
+
+#img-menu
+{
+	background:url(../Conteudo-Site-Tree-Of-Savior/logo.png) no-repeat;
+	width: 350px;
+	position: absolute;
+	height: 207px;
+	padding-left: 4.5%;
+    padding-bottom: 22px;
+    margin-top: -130px;
+    margin-left: 50px;
+    z-index: 9999px;
+    
+}
+header nav ul 
+{
+list-style: none; 
+margin: 0;
+overflow: hidden;/*Esconde Elementos*/
+background-image: url("../Conteudo-Site-Tree-Of-Savior/menu_back2.png");
+background-color: rgba(0, 51, 70, 0.7);
+width: 56%; 
+position: relative;
+left: 22.2%;
+margin-top: 6.948%;
+font-family: helvetica;
+font-size: 12pt;
+}
+
+
+header nav li a, .btn
+{/*display: inline-block;*/
+color: white;
+text-align: center;
+padding: 12px 0; /*16px;*/
+text-decoration: none;
+display: inline-table;
+width: 127.7px;
+font-family: helvetica;
+font-size: 12pt;
+}
+
+header nav li 
+{
+float: left;
+margin: 0 20px 0 0;
+font-family: helvetica;
+font-size: 12pt;
+}
+
+/*, .submenu:hover .btn*/
+ header nav li a:hover
+ {
+ background-color: rgba(0, 51, 70, 0.7); 
+ color: black;
+ }
+
+
+header nav li.submenu
+{
+display: inline-block; 
+}
+
+.submenu-conteudo
+{
+display: none; 
+position: fixed; 
+background-color: rgba(0, 51, 92, 0.3);/*transparent; */
+min-width: 160px; 
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+z-index: 100;
+
+
+
+} /* Faz uma volta*/
+
+.submenu-conteudo a
+{
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.submenu-conteudo a:hover
+{
+background-color: #CDC9C9;
+}
+
+.submenu:hover .submenu-conteudo
+{
+display: block; 
+}
+
+
+
+section h1 
+{
+text-align: center;
+position: relative;
+top: 20px;
+color: white;
+left: 30px;
+font-family: helvetica;
+
+}
+
+#hr 
+{
+position: relative;
+left: 30px;
+}
+
+
+.borda2
+{
+width: 32%;
+float: left;
+background: rgba(0, 51, 92, 0.7);
+border-radius: 5px;
+padding-right: 5%;
+position: relative;
+left: 683px; /*pro video colocar 330*/
+top: 31px;
+color: white;
+border-radius: 4px;
+border: 1px solid rgba(0,168,255,0.2);
+box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6); 	
+}
+
+.borda2	h1
+{
+position: relative;
+left: -70px;
+margin-left: 210px;
+font-size: 20pt;
+top: -2px;
+font-family: helvetica;
+
+}
+
+.borda2 p
+{
+width: 100%;
+position: relative;
+left: 40px;
+margin-top:6px;
+margin-bottom: 20px;
+text-align: justify;
+font-family: helvetica;
+font-size: 12pt;
+}
+
+#sombra
+{
+width: 100%;
+left: 40px;
+}
+
+.Item {
+position: relative;
+float: left;
+width: 22%;
+height: 270px;
+text-align: center;
+top: 31px;
+right:250px;
+color: white;
+left: -275px;
+font-family: helvetica;
+}
+
+ .caixaconteudo {
+background-color: rgba(0, 51, 92, 0.7);
+border-radius: 4px;
+border: 1px solid rgba(0,168,255,0.2);
+box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+
+}
+
+.button
+{
+width: 70%;
+height: 20%;	
+border: 1px solid rgba(0,168,255,0.2);
+box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+background-color: rgba(0, 51, 92, 0.7);
+color: white;
+font-size: 100%;
+border-radius: 5px;
+position: relative;
+top: 40px;
+}
+
+#rodape
+{
+padding: 20px 0px;
+font-family: cursive, Arial;
+color: #FFF;
+height: auto;
+bottom: 0px;
+position: fixed;
+width: 100%;
+text-align: center;
+}
+
+.button2
+{
+width: 85%;
+height: 15%;	
+border: 1px solid rgba(0,168,255,0.2);
+box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+background-color: rgba(0, 51, 92, 0.7);
+color: white;
+font-size: 100%;
+border-radius: 5px;
+position: relative;
+top: -6px;
+}
+
+.redessocial /*Css*/
+{
+position: fixed;
+bottom:420px;
+display: block;
+left: 2%;
+top: 38%;
+}
+.redessocial img
+{
+width: 40%;
+}
+
+.menu-vertical-rsv li, a:hover 
+{
+background: none;
+float: none;
+color: none;
+display: block;
+}
+
+.Item h1
+{
+position: relative;
+top: -10px;
+font-size: 18pt;
+}
+
+.Item iframe
+{
+position: relative;
+top: -17px;
+}
+
+.Item #logosteam
+{
+position: relative;
+top: 20px;
+}
+
+.Item .caixasteam
+{
+background-color: rgba(0, 51, 92, 0.7);
+border-radius: 4px;
+border: 1px solid rgba(0,168,255,0.2);
+box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+float: left;
+height: 148px;
+text-align: center;
+color: white;
+position: relative;
+top: 29px;
+width: 346px;
+left: -1px;
+}
+
+/* GUIA.HTML // PAGINA GUIA CSS // APENAS PARGINA GUIA */
+
+.borda
+{
+	background-color: rgba(0, 51, 92, 0.7);
+	border-radius: 4px;
+	border: 1px solid rgba(0,168,255,0.2);
+	box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+	width: 60%;
+	position: relative;
+	left: 20%;
+	top: 30px;
+
+}
+
+.borda h1
+{
+	color: white;
+	position: relative;
+	left: 40.5%;
+	font-family: helvetica;
+	width: 200px;
+
+
+}
+
+.borda img
+{
+	position: relative;
+	left: 6%;
+}
+
+.tamanho
+{
+	width: 70%;
+	position: relative;
+	left: 140px;
+	font-size: 14pt;
+	top: -30px;
+
+}
+
+.borda ul
+{
+background: none;
+font-family: helvetica;
+font-size: 12pt;
+}
+
+.borda section img
+{width: 80%; }
+
+.borda section p
+{
+	color: white;
+	position: relative;
+	left: 7%;
+	font-size: 12pt;
+	width: 80%;
+	top: 8px;
+	font-family: helvetica;
+}
+
+.borda section
+{
+	position: relative;
+	left: 4%;
+}
+
+/* HISTORIA.HTML // PAGINA HISTORIA CSS // APENAS PARGINA HISTORIA */
+
+
+.historia
+{
+	background-color: rgba(0, 51, 92, 0.7);
+	border-radius: 4px;
+	border: 1px solid rgba(0,168,255,0.2);
+	box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+	width: 60%;
+	position: relative;
+	left: 20%;
+	top: 30px;
+	height: 650px;
+
+}
+
+.historia  img
+{
+	position: relative;
+	left: 7.5%;
+}
+
+.historia h1
+{
+	color: white;
+	position: relative;
+	left: 46.4%;
+	font-family: helvetica;
+	width: 100px;
+	font-size: 20pt;
+
+}
+
+section p 
+{
+	width: 40%;
+	color: white;
+	font-size: 12pt;
+	position: relative;
+	left: 550px;
+    font-family: 'Courgette', cursive;
+
+
+}
+
+section img
+{
+width: 50%;
+position: relative;
+float: left;
+}
+
+#gif
+{
+	position: relative;
+	left: 75px;
+}
+
+/* DOWNLOAD.HTML // PAGINA DOWNLOAD CSS // APENAS PAGINA DOWNLOAD*/
+
+
+.download 
+{
+	background-color: rgba(0, 51, 92, 0.7);
+	border-radius: 4px;
+	border: 1px solid rgba(0,168,255,0.2);
+	box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+	width: 60%;
+	position: relative;
+	left: 20%;
+	top: 84px;
+	height: 1000px;
+}
+
+.download p
+{
+	color: gray;
+	position: relative;
+	left: 90px;
+	top: 587px;
+	font-family: helvetica;
+	font-size: 12pt;
+}
+
+.download h4
+{
+	color: #4582A5;
+	top: 587px;
+	left: 90px;
+	position: relative;
+	width: 100px;
+
+}
+
+.download h1
+{
+	color: #4582A5;
+	left: -10px;
+	font-family: helvetica;
+
+}
+
+
+
+.recomendado h4
+{
+	color: #4582A5;
+	position: relative;
+	top: -282px;
+	left: 860px;
+	font-family: helvetica;
+	width: 100px;
+
+}
+
+.recomendado p
+{
+	color: gray;
+	position: relative;
+	font-family: helvetica;
+	font-size: 12pt;
+	top: -282px;
+	left: 860px;
+	width: 400px;
+}
+
+.recomendado
+{
+	width: 100px; 
+}
+
+.buto
+{
+height: 180px;
+text-align: center;
+color: white;
+position: relative;
+width: 800px;
+top: -280px;
+left: 400px;
+}
+
+#video
+{
+	width: 800px;
+	height: 350px;
+}
+
+.leg
+{
+position: relative;
+top: -70px;	
+}
+
+.down
+{
+position: relative;
+top: -325px;
+width: 949px;
+left: 315px;
+}
+
+/* CLASSES.HTML // PAGINA CLASSES CSS // APENAS PAGINA CLASSES */
+
+.arqueiro, .classes, .mago, .clerico 
+{
+	background-color: rgba(0, 51, 92, 0.7);
+	border-radius: 4px;
+	border: 1px solid rgba(0,168,255,0.2);
+	box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+	width: 60%;
+	position: relative;
+	left: 20%;
+	top: 84px;
+	height: 1300px;	
+}
+
+.cla
+{
+	font-family: helvetica;
+	font-size: 11pt;
+	position: relative;
+	top: -10px;
+	left: -40px;
+}
+
+.cla img
+{
+	width: 80%;
+	top: 20px;
+	left: 120px;
+}
+
+#centro
+{
+	position: relative;
+	left: 295px;
+	width: 100px;
+	top: 30px;
+}
+
+#direita
+{
+	position: relative;
+	left: 820px;
+	bottom: 959px;
+	width: 100px;
+}
+
+#esquerda
+{
+position: relative;
+left: 80px;	
+top: 30px;
+}
+
+/* Passar mouse em cima */
+#exemplo{
+ width:300px;
+ height:146px;
+ padding:10px;
+ position:relative;
+}
+#mouse {
+ width:400px;
+ height:100px;
+ font-size:16px;
+ position: relative;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; 
+ top:-100px;
+ left:200px;
+ padding:2px;
+ line-height:20px;
+ color:#fff;
+ display: block;
+ width:180px;
+ opacity: 0;
+ transition: all 300ms ease;
+ z-index: 1;
+
+}
+
+#mouse:hover  #comentario{
+      opacity: 1;
+}
+
+ 
+footer
+{
+	clear: both;
+	color: rgba(255,255,255,0.7);
+	position: relative;
+	left: 310px;
+	top: 50px;
+	background-color: rgba(0, 51, 92, 0.7);
+	border: 1px solid rgba(0,168,255,0.2);
+	box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+	width: 60.7%;
+	font-family: helvetica;
+	font-size: 11pt;
+	margin: 0;
+
+}
+
+.copyright
+{
+	position: relative;
+	left: 250px;
+	top: -10px;
+	width: 500px;
+}
+
+.copyright1
+{
+	position: relative;
+	left: 215px;
+	top: 5px;
+	width: 600px;
+}
+
+.ema
+{
+	position: relative;
+	left: 360px;
+	top: -22px;
+	width: 300px;
+}
+
+.his p
+{
+position: relative;
+height: 35px;
+clear: both;
+}
+
+.his{position:relative; width:946px; left:317px}
+
+ .bordahis
+{
+  background-color: rgba(0, 51, 92, 0.7);
+  border-radius: 4px;
+  border: 1px solid rgba(0,168,255,0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0,170,255,0.6);
+  width: 60%;
+  position: relative;
+  left: 20%;
+  top: 30px;
+  height: 1900px;
+
+}
+
+.bordahis h1
+{
+  color: white;
+  position: relative;
+  left: 40.5%;
+  font-family: helvetica;
+  width: 200px;
+
+
+}
+
+.bordahis img
+{
+  position: relative;
+  left: 5%;
+  top: 20px;
+  margin: 10px;
+}
+
+
+
+.bordahis section img
+{width: 80%; }
+
+.bordahis section p
+{
+  color: white;
+  position: relative;
+  left: 7%;
+  font-size: 12pt;
+  width: 80%;
+  top: 20px;
+  font-family: helvetica;
+}
+
+.bordahis section
+{
+  position: relative;
+  left: 4%;
+} 
+
+
+
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (max-width: 479px)  
+{	
+.buto{width: 300px; position: relative; left: 4px; top: -370px;}
+.recomendado h4{position: relative;font-size: 11pt; top: -383px; left: 140px; width: 100px;}
+.recomendado p{position: relative;font-size: 11pt; top: -382px; left: 170px; width: 100px;}
+.download p{position: relative;font-size: 11pt; top: 10px; left: 20px;}
+.download h4{position: relative; font-size: 11pt; top: 10px; left: 20px;}
+.download h1{position: relative;left: 1px; top: -10px;}
+.download{position: relative; left:12px; width: 275px; top: 100px; height: 540px;}
+.leg{display: none;}
+.passos{position: relative;left: 6px; top: 2px;}
+.borda #pa{position: relative;left: 2px;}
+.borda h1{position: relative; left: 55px;}
+.borda{position: relative; top: -155px; width: 270px;}
+.caixaconteudo .caixasteam{width: 270px;}
+.caixaconteudo{position: relative;left: 8px; width: 270px; top: -10px; } 
+.caixaconteudo iframe{width: 200px;}
+.borda2{display: none;}
+.banner{display: none;}
+#book 
+{display: none;}
+.bordahis img{position: relative; top: 10px; left: 3px; }
+#pa{position: relative; left: -10px; width: 270px; top: -10px;}
+.bordahis h1
+{font-size: 14pt; position: relative; left: 100px;}
+.d p{margin-bottom: 40px; margin-top: -40px; margin-left: 5px;}
+.bordahis{height: 3250px; width:270px; position: relative;top: 160px; left: 10px;}
+.his{width: 90%; left: 10px; height: 170px; top: 180px;}
+.his p{font-size: 10pt; left: 10px; width: 260px; height: 80px;}
+.menu-vertical-rsv{display: none;}
+#img-menu{width: 353px; margin-left: 28px; bottom: 190px;}
+nav{ position: relative; top: 200px; left: -75px; width: 400px;}
+nav a{margin-left: 30px;}
+.submenu-conteudo{ background-color: rgba(0, 51, 70, 70); margin-left:-25px; margin-top: 100px;}
+.ema{position: relative; top: -30px;}
+nav .submenu a {display:  none;}
+}
+
+@media screen and (min-width: 1025px) 
+{
+#book, .historia
+{display: block;}	
+.d {display: none;}
+.bordahis{height: 720px;}
+.bordahis img {position: relative; top: 10px; left: 60px;}
+.bordahis h1{position: relative; left: 435px;}
+}
+
+@media screen and (max-width: 767px) and (min-width: 480px)
+{
+.buto{width: 400px; position: relative; left: 180px; top: -230px;}
+.recomendado p{position: relative; top: -245px; left: 410px; width: 200px; }
+.recomendado h4{position: relative; top: -245px; left: 410px;}
+.download p{position: relative; top: 20px; left: 30px;}
+.download h4{position: relative; top: 20px; left: 30px;}
+.download h1{position: relative; top: -10px;}
+.download{position: relative; top: 190px; height: 500px;}
+.leg{display: none;}
+.passos{position: relative; left: 84px; top: 2px;}
+.borda #pa{position: relative; left: -25px;}
+.borda h1{position: relative; left: 142px;}
+.borda{position: relative; left: 170px; top: -35px;}
+.borda2 h1{position: relative; left: -80px;}
+#sombra{position: relative; left: 15px;}
+.borda2 p{position: relative; left: 19px;}
+.borda2{position: relative;left: 150px; top: 370px; width: 415px;}
+.button2{font-size: 14pt;}
+.caixaconteudo .caixasteam{width: 200px; display: none;}
+.caixaconteudo iframe{width: 400px;}
+.caixaconteudo{position: relative;left: 150px; width: 452px; top: -390px;}
+.banner{width: 61.5%; position: relative; left: 145px; top: 80px; display: none;}
+nav .submenu a {display:  none;}
+#book {display: none;}
+.bordahis{height: 3600px; position: relative; top: 140px;}
+.bordahis h1{font-size: 20pt; position: relative;left: 170px; top: 20px;}
+#pa{width: 500px;position: relative; left: -40px;}
+#img-menu{width: 400px; margin-left: 190px; margin-top: -300px;}
+nav a{margin-left: 40px;}
+.submenu-conteudo{margin-top: 140px; left: -10px;}
+nav{position: relative; top: 170px; left: -21px;}
+.menu-vertical-rsv{display: none;}
+.submenu-conteudo{margin-left: 45px; margin-top: 80px; background-color: rgba(0, 51, 70, 70);}
+.his{position: relative;left: 149px; top: 160px; width: 450px;}
+.copyright1{position: relative;left: 10px; font-size: 11pt; width: 500px;}
+.copyright{position: relative;left: 10px; font-size: 11pt; width: 450px; top: 10px;}
+.ema{position: relative;left: 10px; font-size: 11pt; width: 500px; top: 10px;}
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px)
+{
+.borda{position: relative; left: 310px; width: 820px; top: -30px;}
+.passos{width: 800px; position: relative; left: 40px;}
+.borda2 p {position: relative; left: 30px;}
+.borda2{position: relative; left: 400px; width: 450px;}
+.caixaconteudo .caixasteam {width: 300px;}
+.caixaconteudo iframe{width: 270px;}
+.caixaconteudo {position: relative;left: -420px; width: 300px;}
+.banner{width: 820px; position: relative; left: 80px;}
+.ema{position: relative;left: 300px;}
+.copyright{position: relative;left: 160px;}
+.copyright1{position: relative; left: 130px;}
+.down{position: relative;left: 80px; width: 820px;}
+.buto{position: relative; left: 100px;}
+.recomendado p{position: relative; left: 550px;}
+.recomendado h4{position: relative;left: 550px;}
+.download h1{position: relative; left: 15px;}
+.leg{position: relative;left:-12px;}
+.download{width: 820px;  position: relative; left: 80px;}
+.menu-vertical-rsv{display: none;}
+nav .submenu a {display:  none;}
+#book{display: none;}
+.bordahis h1{position: relative;left: 360px; top: 20px;}
+#pa{width: 800px; margin-left: -30px;}
+.bordahis{height: 5100px; width: 820px; position: relative; left: 80px;}
+.his{position: relative;left: 200px; width: 60.2%;}
+.his p{margin-left: -170px; margin-top: 2px;}
+nav{width:1400px; position: relative; left: -430px; top: 60px; margin-top: 150px; margin-left: 200px;}
+#img-menu{margin-top: -190px; margin-left: 300px;}
+nav a{margin-right: 40px;}
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1025px)
+{
+
+.mago{width: 920px; position: relative; left: 210px;}
+.arqueiro{width: 920px; position: relative; left: 210px;}
+.clerico {width: 920px; position: relative; left: 210px;}
+#direita{position: relative; left: 670px;}
+.classes {width: 920px; position: relative; left: 210px;}
+.borda h1{position: relative; left: 380px;}
+.borda{position: relative; left: 360px; width: 920px; top: -100px;}
+.buto{position: relative; left: 250px;}
+.recomendado{position: relative;left: -100px;}
+.download {width: 920px; position: relative; left: 210px;}
+#book{position: relative; top: 50px;}
+.bordahis{width: 930px; position: relative; left: 200px;}
+footer{width: 940px; position: relative; left: 200px;}
+.borda2{position: relative;left: 640px;}
+.caixaconteudo .caixasteam{width: 400px;}
+.caixaconteudo iframe{width: 350px;}
+.caixaconteudo {width: 400px; position: relative; left: -300px;}	
+#img-menu {position: relative;left: 420px;}	
+nav {width: 1600px; position: relative; top: 140px; left: -150px;}
+.submenu-conteudo {margin-top: 140px; }
+.banner{width: 1000px; position: relative; left: 170px;}
+}
+
